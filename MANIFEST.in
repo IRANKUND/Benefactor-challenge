@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include benefactor_challenge *.css
+recursive-include benefactor_challenge *.csv
+recursive-include benefactor_challenge *.html
+recursive-include benefactor_challenge *.ico
+recursive-include benefactor_challenge *.js
+recursive-include benefactor_challenge *.json
+recursive-include benefactor_challenge *.md
+recursive-include benefactor_challenge *.png
+recursive-include benefactor_challenge *.py
+recursive-include benefactor_challenge *.svg
+recursive-include benefactor_challenge *.txt
+recursive-exclude benefactor_challenge *.pyc
