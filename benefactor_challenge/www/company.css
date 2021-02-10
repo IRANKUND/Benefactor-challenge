@@ -1,23 +1,26 @@
 body{
     margin: 0;
-    padding: 100px 0px;
+    padding: 70px 0px;
     height: 100%;
     box-sizing: border-box;
     font-family:sans-serif;
     background-color: #FAF9EE;
 }
 h1{
-    text-align: center;
+    text-align: left;
     color: #1785eb;
-    font-size: 45;
+    font-size: 45px;
+    margin: 12px;
 }
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 70%;
     margin: auto;
     background-color: #fff;
+    border-radius: 12px;
     
 }
 .our-team{
@@ -27,10 +30,10 @@ h1{
     position: relative;
     margin: 34px 25px 34px;
     padding: 30px 70px;
-    width: 30%;
+    width: 10%;
     border: 1px solid #4e5052;
     border-radius: 12px;
-    height: 50%;
+    height: 30%;
 
 }
 
@@ -107,8 +110,30 @@ h1{
     border-color: #1785eb;
     background: #fff;
     border-radius: 12px;
-    width: 100%;
+    width: 150%;
     height: 30px;
     font-size: 19px;
     color: #1785eb;
+}
+.company-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wapper{
+    width: 70%;
+    height: 20%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    
+}
+.logo img{
+    width: 160px;
+    height: 160px;
+
+}
+.logo{
+    margin-left: -27%;
 }
